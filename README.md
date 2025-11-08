@@ -24,8 +24,8 @@ Testing the C Program for the desired output.
 # PROGRAM:
 
 ## C Program that illustrate communication between two process using unnamed pipes using Linux API system calls
-
-```
+### ex3_1.c
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -87,11 +87,12 @@ void client(int wfd, int rfd) {
 ```
 ## OUTPUT
 
-![Alt text](img/pipe.png)
+<img width="564" height="338" alt="Screenshot 2025-11-08 171358" src="https://github.com/user-attachments/assets/0b07c900-f5f4-4922-b9df-07445da515dc" />
+
 
 ## C Program that illustrate communication between two process using named pipes using Linux API system calls
-
-```
+### ex3_2.c
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -177,7 +178,8 @@ void client() {
 ```
 ## OUTPUT
 
-![Alt text](img/namedpipe.png)
+<img width="546" height="262" alt="Screenshot 2025-11-08 171528" src="https://github.com/user-attachments/assets/b71da023-b888-46df-9489-8ce7c99ca931" />
+
 
 # RESULT:
 The program is executed successfully.
